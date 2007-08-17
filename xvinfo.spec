@@ -34,6 +34,6 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %{_bindir}/xvinfo
-%{_mandir}/man1/xvinfo.1x.bz2
+%{_mandir}/man1/xvinfo.*
 
 
