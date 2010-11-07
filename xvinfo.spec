@@ -1,5 +1,5 @@
 Name: xvinfo
-Version: 1.1.0
+Version: 1.1.1
 Release: %mkrel 1
 Summary: Print out X-Video extension adaptor information
 Group: Development/X11
