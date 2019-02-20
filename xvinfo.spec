@@ -1,6 +1,6 @@
 Name: xvinfo
-Version: 1.1.3
-Release: 6
+Version: 1.1.4
+Release: 1
 Summary: Print out X-Video extension adaptor information
 Group: Development/X11
 Source0: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
@@ -15,17 +15,17 @@ Xvinfo prints out the capabilities of any video adaptors associated with the
 display that are accesible through the X-Video extension.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %configure \
 		--x-includes=%{_includedir} \
 		--x-libraries=%{_libdir}
 
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %{_bindir}/xvinfo
