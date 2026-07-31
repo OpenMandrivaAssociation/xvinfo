@@ -1,6 +1,6 @@
 Name:		xvinfo
-Version:	1.1.5
-Release:	2
+Version:	1.1.6
+Release:	1
 Summary:	Print out X-Video extension adaptor information
 Group:		Development/X11
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
